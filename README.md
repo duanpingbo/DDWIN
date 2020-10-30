@@ -42,7 +42,7 @@ dd包解压后的体积不能超过机器第一块硬盘的最大容积.
 ## 3.使用方法:
 
 ``` 
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd '[Windows dd包直连地址]'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/duanpingbo/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd '[Windows dd包直连地址]'
 ``` 
 
 ## 萌咖提供的demo包(1.19G;已激活):
@@ -64,12 +64,12 @@ https://moeclub.org/get-win7embx86-auto
 #在你的机器上全新安装,如果你有VNC,可以看到全部过程.
 #在dd的过程中,会卡在分区的界面上,不会走进度条.完成后将会自动重启.
  
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://moeclub.org/get-win7embx86-auto'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/duanpingbo/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://moeclub.org/get-win7embx86-auto'
 ```
 
 备份地址脚本
 ```
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=e101de45-59da-47cc-a00d-f87ad462ce77&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvdmVpcC1teS5zaGFyZXBvaW50LmNvbUAwNGZhYTllMy0zMTBiLTQwMzUtODQ4ZS1hZDQ0ZTQyOGMyMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNTY0ODMyMTQzIiwiZXhwIjoiMTU2NDgzNTc0MyIsImVuZHBvaW50dXJsIjoidzNqQXREMHpRTFp1YWE3UGdMOWJIZGhpN1BFVFNlWGVNRTFOSWVXOGRWOD0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE1NCIsImlzbG9vcGJhY2siOiJUcnVlIiwiY2lkIjoiTlRrd1pXWXdNalF0TVROak9TMDBNamMzTFdJNE1HRXRORGxrTURBMk4yTmhZV0k1IiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllXRTFaVFEwTmpZdFkyRTRNaTAwTm1Vd0xUaGhPR0V0TW1KaE1UazFNMll3TmpBeCIsImFwcF9kaXNwbGF5bmFtZSI6Im9uZWluZGV4IiwiZ2l2ZW5fbmFtZSI6IuWkp-WcoyIsImZhbWlseV9uYW1lIjoi5a2ZIiwiYXBwaWQiOiJhOWI1YWJhZi02ODUyLTQ0MWYtYWQ2NS00MTU0MmMyMWYyZWMiLCJ0aWQiOiIwNGZhYTllMy0zMTBiLTQwMzUtODQ4ZS1hZDQ0ZTQyOGMyMWYiLCJ1cG4iOiJhZG1pbkB2ZWlwLm9ubWljcm9zb2Z0LmNvbSIsInB1aWQiOiIxMDAzN0ZGRUFBOUFBMDdCIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhYTlhYTA3YkBsaXZlLmNvbSIsInNjcCI6ImFsbGZpbGVzLndyaXRlIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.MHB0alduV0NTcjFqalFEcUE3RVBCNklzeWNBWFhINjc2LzRZQ05uUlV2Zz0&ApiVersion=win7emb_x86.tar.gz'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/duanpingbo/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=e101de45-59da-47cc-a00d-f87ad462ce77&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvdmVpcC1teS5zaGFyZXBvaW50LmNvbUAwNGZhYTllMy0zMTBiLTQwMzUtODQ4ZS1hZDQ0ZTQyOGMyMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNTY0ODMyMTQzIiwiZXhwIjoiMTU2NDgzNTc0MyIsImVuZHBvaW50dXJsIjoidzNqQXREMHpRTFp1YWE3UGdMOWJIZGhpN1BFVFNlWGVNRTFOSWVXOGRWOD0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE1NCIsImlzbG9vcGJhY2siOiJUcnVlIiwiY2lkIjoiTlRrd1pXWXdNalF0TVROak9TMDBNamMzTFdJNE1HRXRORGxrTURBMk4yTmhZV0k1IiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IllXRTFaVFEwTmpZdFkyRTRNaTAwTm1Vd0xUaGhPR0V0TW1KaE1UazFNMll3TmpBeCIsImFwcF9kaXNwbGF5bmFtZSI6Im9uZWluZGV4IiwiZ2l2ZW5fbmFtZSI6IuWkp-WcoyIsImZhbWlseV9uYW1lIjoi5a2ZIiwiYXBwaWQiOiJhOWI1YWJhZi02ODUyLTQ0MWYtYWQ2NS00MTU0MmMyMWYyZWMiLCJ0aWQiOiIwNGZhYTllMy0zMTBiLTQwMzUtODQ4ZS1hZDQ0ZTQyOGMyMWYiLCJ1cG4iOiJhZG1pbkB2ZWlwLm9ubWljcm9zb2Z0LmNvbSIsInB1aWQiOiIxMDAzN0ZGRUFBOUFBMDdCIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhYTlhYTA3YkBsaXZlLmNvbSIsInNjcCI6ImFsbGZpbGVzLndyaXRlIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.MHB0alduV0NTcjFqalFEcUE3RVBCNklzeWNBWFhINjc2LzRZQ05uUlV2Zz0&ApiVersion=win7emb_x86.tar.gz'
 ```
 
 
@@ -79,7 +79,7 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 # --ip-addr :IP Address/IP地址
 # --ip-mask :Netmask   /子网掩码
 # --ip-gate :Gateway   /网关
-# wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh --ip-addr X.X.X.X --ip-mask X.X.X.X --ip-gate X.X.X.X -dd 'https://moeclub.org/get-win7embx86-auto'
+# wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/duanpingbo/DDWIN/master/InstallNET.sh' && bash InstallNET.sh --ip-addr X.X.X.X --ip-mask X.X.X.X --ip-gate X.X.X.X -dd 'https://moeclub.org/get-win7embx86-auto'
 ```
 
 
@@ -139,7 +139,7 @@ https://doc-04-9g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffks
 ## GD直连获取方法
 1.下载脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/duanpingbo/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
 2.使用方法
 ```
